@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Font-Family/Montserrat_Alternates/MontserratAlternates-Medium.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(./Font-Family/Inter/static/Inter_18pt-Medium.ttf);
+}
+.titulo{
+    font-family: Montserrat;
+}
+.login{
+    font-family: Inter;
+}
+.register{
+    font-family: Inter;
+}
+.google{
+    font-family: Inter;
+}
+.facebook{
+    font-family: Inter;
+}
+.register{
+    font-family: Inter;
+}
+.email{
+    font-family: inter;
+}
+.password{
+    font-family: Inter;
+}
+.parrafogs{
+    font-family: Inter;
+}
+.bottomgs{
+    font-family: Inter;
+}
+.descuento{
+    font-family: Inter;
+}
+.valor{
+    font-family: Inter;
+}
+.boton{
+    font-family: Inter;
+}
+.info{
+    box-shadow: 0px 4px 8px 4px #00000014;
+}
+.menus{
+    box-shadow: 0px 14px 10px 16px #00000020;
+}
+.swiper-pagination-bullet-active {
+    background-color: #4CAD73; /* Cambia 'blue' por el color que desees */
+}
+
+.categories{
+    font-family: Inter;
+}
+.name{
+    font-family: Inter;
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -5px);
+    top: var(--swiper-pagination-top, auto);
+    left: -142px;
+    width: 100%;
+}
+input{
+    font-family: Inter;
+}
